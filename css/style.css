@@ -1,0 +1,207 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Arial';
+}
+
+#nav {
+	width: 100%;
+	height: 70px;
+	border-top: 3px solid #03bff7;
+	border-bottom: 1px solid #ccc;
+    /*border:1px solid #CCC;*/
+    background-color: #fafafb;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* ki lho ngatur jarak karo nduwure*/
+}
+	#nav .nav{
+		top: 0px;
+		left: 0px;
+		width: 1170px;
+		height: 100px;
+		margin: auto;
+
+	}
+	#nav .nav .logo{
+		float: left;
+		width: 200px;
+		overflow: hidden;
+		font-family: 'Arial';
+	}
+
+	#nav .nav .logo h2 {
+		color: #26a8ff;
+	}
+
+	#nav .nav .menu {
+		float: right;
+		width: 500px;
+		overflow: hidden;
+	}
+
+	#nav .nav .menu ul {
+		margin: 0;
+		margin-top: 25px;
+		padding: 0;
+	}
+
+	#nav .nav .menu ul li {
+		float: right;
+		padding-left: 20px;
+		display: block;
+	}
+
+	#nav .nav .menu ul li a {
+		color: #777777;
+		text-decoration: none;
+		transition: all 1s;
+	}
+
+	#nav .nav .menu ul li a:hover{
+		text-decoration: underline;
+		color: #26a8ff;
+		transition: all 1s;
+	}
+
+.banner {
+	width: 1170px;
+	height: 400px;
+	margin: 95px auto auto auto;
+	background: url('../img/baner.jpg');
+}
+
+	.banner .caption {
+		float: left;
+		width: 500px;
+		overflow: hidden;
+		margin: 20px;
+	}
+
+		.banner .caption h2{
+			margin-top: 5px;
+		}
+
+		.banner .caption p{
+			line-height: 1.5;
+		}
+
+			.banner .caption p .btn-here-me{
+				padding: 10px;
+				padding-left: 30px;
+				padding-right: 30px;
+				background-color: #26a8ff;
+				color: #fff;
+				text-decoration: none;
+				border-radius: 5px;
+			}
+
+			.banner .caption p .btn-here-me:hover{
+				color: #202020;
+				border: 1px solid #0befc3;
+				border-radius: 5px;
+			}
+
+.myportofolio {
+	width: 1170px;
+	overflow: hidden;
+	margin:auto;
+	margin-top: 10px;
+}
+
+.myportofolio .header-title {
+		color: #26a8ff;
+		margin-bottom: 20px;
+}
+
+.myportofolio .item {
+	width: 350px;
+	/*height: 500px;*/
+	overflow: hidden;
+	float: left;
+	/*background-color: yellow;*/
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+
+	.myportofolio .item .gambar-project {
+			width: 350px;
+			height: 300px;
+		}
+
+		.myportofolio .item .project-name {
+			/*margin : 0;*/
+			margin-bottom: -10px;
+			text-align: center;
+		}
+
+
+		.myportofolio .item .link-project {
+			color: #10bec7;
+			text-decoration: none;
+		}
+
+		.myportofolio .item .link-project:focus {
+			color: #637879;
+		}
+
+		.myportofolio .item .date-project {
+			color: silver;
+			text-align: center;
+			font-size: 14px;
+		}	
+
+	.myportofolio .form-input {
+		float: left;
+		width: 500px;
+		overflow: hidden;
+		margin-right: 250px;
+	}	
+		.myportofolio .form-input input {
+		width: 450px;
+		height: 35px;
+		margin-bottom: 10px;
+		padding: 10px;
+		}
+
+		.myportofolio .form-input textarea {
+			font-family: 'Arial';
+			width: 450px;
+			padding: 10px;
+			resize: none;
+		}
+
+		.myportofolio .form-input button {
+			width: 472px;
+			padding: 10px;
+			background-color: #26a8ff;
+			color: #fff;
+			border: 0;
+			border-radius: 5px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			font-size: 16px;
+			cursor: pointer;
+		}
+
+		.myportofolio .form-input button:hover {
+			color: #202020;
+			font-weight: bold;
+		}
+
+	.myportofolio .alamat-ku {
+		float: right;
+		width: 500px;
+		overflow: hidden;
+	}
+
+.footer {
+	position: relative;
+	padding: 1rem;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100%
+	height:40px;
+	background: #29bbf5;
+}
+
